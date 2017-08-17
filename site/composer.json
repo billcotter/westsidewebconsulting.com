@@ -36,7 +36,7 @@
     "php": ">=5.6",
     "composer/installers": "~1.2.0",
     "vlucas/phpdotenv": "^2.0.1",
-    "johnpbloch/wordpress": "4.8",
+    "johnpbloch/wordpress": "4.8.1",
     "oscarotero/env": "^1.0",
     "roots/wp-password-bcrypt": "1.0.0",
     "wpackagist-plugin/akismet": "dev-trunk",
@@ -57,14 +57,12 @@
     "wpackagist-plugin/resume-builder": "dev-trunk",
     "wpackagist-plugin/nginx-manager": "dev-trunk",
     "wpackagist-plugin/nginx-helper": "dev-trunk",
-    "wpackagist-plugin/tinymce-advanced": "dev-trunk",
     "wpackagist-plugin/testimonials-widget": "dev-trunk",
     "wpackagist-plugin/strong-testimonials": "dev-trunk",
     "wpackagist-plugin/wordfence": "dev-trunk",
     "wpackagist-plugin/youtube-channel-gallery": "dev-trunk",
-    "wpackagist-plugin/genesis-dambuster": "dev-trunk",
-    "wpackagist-plugin/tinymce-advanced": "dev-trunk"
-
+    "wpackagist-plugin/genesis-dambuster": "dev-trunk"
+    
 
   },
   "require-dev": {
