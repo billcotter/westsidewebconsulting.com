@@ -1,0 +1,310 @@
+#beaver-extender-fe-style-editor {
+	width: 630px;
+	height: auto;
+	font-size: 12px;
+	color: #333333;
+	font-weight: normal;
+	font-style: normal;
+	text-align: left;
+	text-transform: none;
+	letter-spacing: 0;
+	line-height: 160%;
+	text-decoration: none;
+	z-index: 100004;
+	-webkit-border-radius: 4px 4px 0 0;
+	border-radius: 4px 4px 0 0;
+}
+
+#beaver-extender-fe-style-editor * {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#beaver-extender-fe-style-editor,
+#beaver-extender-fe-style-editor h3,
+#beaver-extender-fe-style-editor button,
+#beaver-extender-fe-style-editor input[type="button"],
+#beaver-extender-fe-style-editor input,
+#beaver-extender-fe-style-editor select,
+#beaver-extender-fe-style-editor textarea,
+#beaver-extender-fe-style-editor p,
+#beaver-extender-fe-style-editor ul,
+#beaver-extender-fe-style-editor li,
+#beaver-extender-fe-style-editor a,
+#beaver-extender-fe-style-editor-css {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif !important;
+	text-transform: none;
+	letter-spacing: normal;
+}
+
+#beaver-extender-fe-style-editor .ui-icon {
+    background-color: #fff;
+}
+
+#beaver-extender-fe-style-editor .ui-resizable-se {
+    right: 0;
+    bottom: 0;
+}
+
+#beaver-extender-fe-style-editor-css {
+	background: #0073AA;
+	width: 30px;
+	height: 30px;
+	position: fixed;
+	top: 100px;
+	right: 0;
+	cursor: pointer;
+	z-index: 100002;
+	-webkit-border-radius: 4px 0 0 4px;
+	border-radius: 4px 0 0 4px;
+	-webkit-box-shadow: 0 0 3px #666;
+	box-shadow: 0 0 3px #666;
+}
+
+#beaver-extender-fe-style-editor-css .dashicons {
+	padding: 5px;
+	color: #fff;
+	font-size: 20px;
+}
+
+#beaver-extender-fe-style-editor p {
+	margin: 0;
+	padding: 0;
+	color: #666666;
+	font-size: 11px;
+	line-height: 1.5;
+}
+
+#beaver-extender-fe-style-editor input[type=submit] {
+	background: #444;
+	border: 0;
+	width: 100px;
+	color: #fff;
+	margin-right: 2px;
+	margin-left: -1px;
+	padding: 3px 5px;
+	font-size: 13px;
+	font-weight: normal;
+	text-transform: none;
+	line-height: 1.625;
+	float: left;
+	cursor: pointer;
+	-webkit-border-radius: 0;
+	border-radius: 0;
+}
+
+#beaver-extender-fe-style-editor input[type=submit]:hover,
+#beaver-extender-fe-style-editor input[type=submit].beaver-extender-fe-style-editor-save-button-active:hover {
+	background: #2EA2CC;
+}
+
+#beaver-extender-fe-style-editor input[type=submit].beaver-extender-fe-style-editor-save-button-active {
+	background: #b0313d;
+}
+
+.beaver-extender-ajax-save-spinner {
+	width: 20px;
+	height: 20px;
+	margin-top: 3px;
+	display: none;
+}
+
+.beaver-extender-saved {
+	background: #2EA2CC;
+	margin-left: 2px;
+	padding: 3px 5px;
+	color: #fff;
+	font-size: 11px;
+	font-weight: bold;
+	display: none;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+}
+
+#beaver-extender-fe-style-editor .ace_editor {
+	min-height: 303px;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+#beaver-extender-fe-style-editor .ace_search {
+	background: #eee;
+}
+
+#beaver-extender-fe-style-editor .ace_search_form input,
+#beaver-extender-fe-style-editor .ace_replace_form input {
+	border: 0;
+	width: 200px;
+	font-size: 12px;
+}
+
+#beaver-extender-fe-style-editor .ace_search_form button,
+#beaver-extender-fe-style-editor .ace_replace_form button {
+	background-color: #fff;
+	padding: 0;
+	color: #333;
+	font-size: 12px;
+	font-weight: normal;
+	letter-spacing: 0;
+	text-transform: none;
+	-webkit-border-radius: 0;
+	border-radius: 0;
+}
+
+#beaver-extender-fe-style-editor .ace_replace_form button {
+	padding: 0 5px;
+}
+
+#beaver-extender-fe-style-editor .ace_search_form button:hover,
+#beaver-extender-fe-style-editor .ace_replace_form button:hover {
+	background-color: #eee;
+	border: 0;
+	border-left: 1px solid #dcdcdc;
+}
+
+#beaver-extender-fe-style-editor .ace_searchbtn_close:hover {
+	border: 0;
+}
+
+#beaver-extender-fe-style-editor .ace_search_options {
+	clear: both;
+}
+
+.ace_tooltip {
+	color: #333;
+	font-size: 13px;
+}
+
+.ace_tooltip hr {
+    border: 0;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #fafafa;
+	margin: 0;
+}
+
+#beaver-extender-fe-style-editor-container {
+	background: #FFFFFF;
+	border: 1px solid #ddd;
+	width: 100%;
+	float: left;
+}
+
+#beaver-extender-fe-style-editor h3 {
+	background: #F5F5F5;
+	border: 1px solid #ddd;
+	border-bottom: 1px solid #eee;
+	width: 100%;
+	height: 26px;
+	font-size: 13px;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	line-height: 160%;
+	clear: both;
+	-webkit-border-radius: 4px 4px 0 0;
+	border-radius: 4px 4px 0 0;
+}
+
+.beaver-extender-fe-style-editor-draggable {
+	margin-top: -165px;
+	margin-left: -315px;
+	float: left;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	z-index: 100004;
+}
+
+.beaver-extender-fe-style-editor-draggable h3 {
+	cursor: move;
+}
+
+.beaver-extender-fe-style-editor-options-box {
+	background: #F6F6F6;
+	border: 1px solid #E8E8E8;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+
+.beaver-extender-fe-style-editor-nav {
+	background: #f5f5f5;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	width: 100%;
+	height: 26px;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	line-height: 26px;
+	float: left;
+}
+
+textarea.beaver-extender-fe-style-editor-element {
+	width: 100%;
+	letter-spacing: 0;
+	text-transform: none;
+	-webkit-box-shadow: 0 0 0 #FFFFFF;
+	box-shadow: 0 0 0 #FFFFFF;
+}
+
+textarea.beaver-extender-fe-style-editor-element {
+	color: #333333;
+	font: -webkit-small-control;
+	letter-spacing: normal;
+	word-spacing: normal;
+	text-transform: none;
+	text-indent: 0px;
+	display: inline-block;
+	text-align: -webkit-auto;
+}
+
+.beaver-extender-fe-style-editor-element {
+	text-shadow: none !important;
+	opacity: 1 !important;
+	filter: alpha(opacity=100) !important;
+    -webkit-box-sizing: content-box;
+	box-sizing: content-box;
+}
+
+textarea.beaver-extender-fe-style-editor-element {
+    -webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#beaver-extender-fe-style-editor p.beaver-extender-fe-style-editor-info {
+	padding: 10px 0 0;
+	color: #bbb;
+	font-size: 14px;
+	font-style: italic;
+	float: left;
+}
+
+#beaver-extender-fe-style-editor p.beaver-extender-fe-style-editor-info a {
+	color: #bbb;
+}
+
+#beaver-extender-fe-style-editor p.beaver-extender-fe-style-editor-info a:hover {
+	text-decoration: underline;
+}
+
+#beaver-extender-fe-style-editor .dashicons {
+	width: 20px;
+	height: 20px;
+	margin: 0;
+	color: #666;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+#beaver-extender-fe-style-editor .beaver-extender-fe-style-editor-icons.dashicons {
+	padding-top: 3px;
+	padding-right: 23px;
+	float: right;
+}
+
+#beaver-extender-fe-style-editor .beaver-extender-fe-style-editor-icons.dashicons:hover {
+	color: #2EA2CC;
+}

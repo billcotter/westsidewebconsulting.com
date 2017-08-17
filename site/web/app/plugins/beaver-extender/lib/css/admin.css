@@ -1,0 +1,1378 @@
+/*** Theme Admin Styles  ***/
+
+body {
+	font-size: 13px;
+	font-family: "Open Sans",sans-serif;
+}
+
+p, ul, ol, blockquote, input, select {
+	font-size:12px;
+}
+
+.wp-admin select {
+	height: 25px;
+	margin-bottom: 4px;
+}
+
+.beaver-extender-custom-options-wrap label {
+	padding: 5px 5px 0 0;
+	float: left;
+}
+
+.beaver-extender-custom-options-wrap label.ui-corner-all {
+	float: none;
+}
+
+.wp-admin .beaver-extender-custom-widget-option p label input[type=checkbox],
+.wp-admin .beaver-extender-custom-hook-option p label input[type=checkbox] {
+	margin-top: 0;
+}
+
+body.toplevel_page_beaver_extender .no-display {
+	display: none;
+}
+
+a, a:link, a:visited {
+	color: #0074A2;
+	text-decoration: none;
+}
+
+a:hover, a:active  {
+	color: #2EA2CC;
+	text-decoration: none;
+}
+
+.beaver-extender-admin-nav,
+#beaver-extender-custom-css-builder-nav {
+	background: #222222;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.admin-color-light .beaver-extender-admin-nav,
+.admin-color-light #beaver-extender-custom-css-builder-nav {
+	background: #E5E5E5;
+}
+
+.admin-color-blue .beaver-extender-admin-nav,
+.admin-color-blue #beaver-extender-custom-css-builder-nav {
+	background: #4DACCE;
+}
+
+.admin-color-coffee .beaver-extender-admin-nav,
+.admin-color-coffee #beaver-extender-custom-css-builder-nav {
+	background: #59524C;
+}
+
+.admin-color-ectoplasm .beaver-extender-admin-nav,
+.admin-color-ectoplasm #beaver-extender-custom-css-builder-nav {
+	background: #523E6E;
+}
+
+.admin-color-midnight .beaver-extender-admin-nav,
+.admin-color-midnight #beaver-extender-custom-css-builder-nav {
+	background: #363B3F;
+}
+
+.admin-color-ocean .beaver-extender-admin-nav,
+.admin-color-ocean #beaver-extender-custom-css-builder-nav {
+	background: #728E97;
+}
+
+.admin-color-sunrise .beaver-extender-admin-nav,
+.admin-color-sunrise #beaver-extender-custom-css-builder-nav {
+	background: #D14840;
+}
+
+#beaver-extender-custom-css-builder *,
+#beaver-extender-custom-php-builder * {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.beaver-extender-settings-wrap h3,
+.beaver-extender-custom-options-wrap h3,
+.beaver-extender-uploader-inner-1col h3,
+#beaver-extender-custom-css-builder h3,
+#beaver-extender-custom-php-builder h3,
+.beaver-extender-optionbox-outer-2col,
+.beaver-extender-custom-template-option,
+.beaver-extender-custom-label-option,
+.beaver-extender-custom-conditional-option,
+.beaver-extender-custom-widget-option,
+.beaver-extender-custom-hook-option,
+#beaver-extender-admin-footer {
+	background: #FFFFFF;
+	border: 1px solid #DFDFDF;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+	box-shadow: 0 1px 2px rgba(0,0,0,.05);
+}
+
+.beaver-extender-settings-wrap .beaver-extender-optionbox-inner-1col h3 {
+	background: #FFFFFF;
+	color: #222222;
+}
+
+#wpbody {
+    position: inherit;
+}
+
+#beaver-extender-admin-heading {
+	width: 300px;
+	float: left;
+}
+
+#beaver-extender-admin-footer {
+	margin: 0 0 10px;
+	padding: 5px 0 6px;
+	float: left;
+}
+
+#beaver-extender-admin-footer p {
+	font-size: 12px !important;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.beaver-extender-admin-nav {
+	margin: 0 0 15px;
+	padding: 8px 0;
+	text-align: center;
+}
+
+#beaver-extender-custom-css-builder-nav {
+	width: 775px;
+	margin: 10px 0 0 0;
+	padding: 8px 0;
+	float: left;
+	cursor: pointer;
+	text-align: center;
+}
+
+#beaver-extender-custom-css-builder-nav ul,
+#beaver-extender-custom-css-builder-nav li {
+	margin: 0;
+	padding: 0;
+	display: inline;
+	list-style: none;
+}
+
+.beaver-extender-admin-nav ul,
+.beaver-extender-admin-nav li {
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	list-style: none;
+}
+
+.beaver-extender-admin-nav li a,
+.beaver-extender-admin-nav li a:link,
+.beaver-extender-admin-nav li a:visited,
+#beaver-extender-custom-css-builder-nav li a,
+#beaver-extender-custom-css-builder-nav li a:link,
+#beaver-extender-custom-css-builder-nav li a:visited {
+	margin: 0;
+	padding: 2px 17px 3px;
+	font-size: 13px;
+}
+
+#beaver-extender-settings-nav li a,
+#beaver-extender-settings-nav li a:link,
+#beaver-extender-settings-nav li a:visited {
+	padding: 2px 34px;
+}
+
+#beaver-extender-custom-options-nav li a,
+#beaver-extender-custom-options-nav li a:link,
+#beaver-extender-custom-options-nav li a:visited {
+	padding: 2px 18px;
+}
+
+#beaver-extender-custom-css-builder-nav li a,
+#beaver-extender-custom-css-builder-nav li a:link,
+#beaver-extender-custom-css-builder-nav li a:visited {
+	padding: 2px 9px;
+}
+
+a:hover, a:active  {
+	color: #2EA2CC;
+	text-decoration: none;
+}
+
+.beaver-extender-admin-nav li a,
+.beaver-extender-admin-nav li a:link,
+.beaver-extender-admin-nav li a:visited,
+#beaver-extender-custom-css-builder-nav li a,
+#beaver-extender-custom-css-builder-nav li a:link,
+#beaver-extender-custom-css-builder-nav li a:visited {
+	color: #BBBBBB;
+}
+
+.admin-color-light .beaver-extender-admin-nav li a,
+.admin-color-light .beaver-extender-admin-nav li a:link,
+.admin-color-light .beaver-extender-admin-nav li a:visited,
+.admin-color-light #beaver-extender-custom-css-builder-nav li a,
+.admin-color-light #beaver-extender-custom-css-builder-nav li a:link,
+.admin-color-light #beaver-extender-custom-css-builder-nav li a:visited {
+	color: #333333;
+}
+
+.admin-color-blue .beaver-extender-admin-nav li a,
+.admin-color-blue .beaver-extender-admin-nav li a:link,
+.admin-color-blue .beaver-extender-admin-nav li a:visited,
+.admin-color-blue #beaver-extender-custom-css-builder-nav li a,
+.admin-color-blue #beaver-extender-custom-css-builder-nav li a:link,
+.admin-color-blue #beaver-extender-custom-css-builder-nav li a:visited {
+	color: #E2ECF1;
+}
+
+.admin-color-coffee .beaver-extender-admin-nav li a,
+.admin-color-coffee .beaver-extender-admin-nav li a:link,
+.admin-color-coffee .beaver-extender-admin-nav li a:visited,
+.admin-color-coffee #beaver-extender-custom-css-builder-nav li a,
+.admin-color-coffee #beaver-extender-custom-css-builder-nav li a:link,
+.admin-color-coffee #beaver-extender-custom-css-builder-nav li a:visited {
+	color: #FFFFFF;
+}
+
+.admin-color-ectoplasm .beaver-extender-admin-nav li a,
+.admin-color-ectoplasm .beaver-extender-admin-nav li a:link,
+.admin-color-ectoplasm .beaver-extender-admin-nav li a:visited,
+.admin-color-ectoplasm #beaver-extender-custom-css-builder-nav li a,
+.admin-color-ectoplasm #beaver-extender-custom-css-builder-nav li a:link,
+.admin-color-ectoplasm #beaver-extender-custom-css-builder-nav li a:visited {
+	color: #CBC5D3;
+}
+
+.admin-color-midnight .beaver-extender-admin-nav li a,
+.admin-color-midnight .beaver-extender-admin-nav li a:link,
+.admin-color-midnight .beaver-extender-admin-nav li a:visited,
+.admin-color-midnight #beaver-extender-custom-css-builder-nav li a,
+.admin-color-midnight #beaver-extender-custom-css-builder-nav li a:link,
+.admin-color-midnight #beaver-extender-custom-css-builder-nav li a:visited {
+	color: #C2C4C5;
+}
+
+.admin-color-ocean .beaver-extender-admin-nav li a,
+.admin-color-ocean .beaver-extender-admin-nav li a:link,
+.admin-color-ocean .beaver-extender-admin-nav li a:visited,
+.admin-color-ocean #beaver-extender-custom-css-builder-nav li a,
+.admin-color-ocean #beaver-extender-custom-css-builder-nav li a:link,
+.admin-color-ocean #beaver-extender-custom-css-builder-nav li a:visited {
+	color: #D5DDDF;
+}
+
+.admin-color-sunrise .beaver-extender-admin-nav li a,
+.admin-color-sunrise .beaver-extender-admin-nav li a:link,
+.admin-color-sunrise .beaver-extender-admin-nav li a:visited,
+.admin-color-sunrise #beaver-extender-custom-css-builder-nav li a,
+.admin-color-sunrise #beaver-extender-custom-css-builder-nav li a:link,
+.admin-color-sunrise #beaver-extender-custom-css-builder-nav li a:visited {
+	color: #F0C8C6;
+}
+
+.beaver-extender-admin-nav li a:hover,
+#beaver-extender-custom-css-builder-nav li a:hover {
+	color: #2EA2CC;
+}
+
+.admin-color-light .beaver-extender-admin-nav li a:hover,
+.admin-color-light #beaver-extender-custom-css-builder-nav li a:hover {
+	color: #04A4CC;
+}
+
+.admin-color-blue .beaver-extender-admin-nav li a:hover,
+.admin-color-blue #beaver-extender-custom-css-builder-nav li a:hover {
+	color: #FFFFFF;
+}
+
+.admin-color-coffee .beaver-extender-admin-nav li a:hover,
+.admin-color-coffee #beaver-extender-custom-css-builder-nav li a:hover {
+	color: #C7A589;
+}
+
+.admin-color-ectoplasm .beaver-extender-admin-nav li a:hover,
+.admin-color-ectoplasm #beaver-extender-custom-css-builder-nav li a:hover {
+	color: #A3B745;
+}
+
+.admin-color-midnight .beaver-extender-admin-nav li a:hover,
+.admin-color-midnight #beaver-extender-custom-css-builder-nav li a:hover {
+	color: #E14D43;
+}
+
+.admin-color-ocean .beaver-extender-admin-nav li a:hover,
+.admin-color-ocean #beaver-extender-custom-css-builder-nav li a:hover {
+	color: #9EBAA0;
+}
+
+.admin-color-sunrise .beaver-extender-admin-nav li a:hover,
+.admin-color-sunrise #beaver-extender-custom-css-builder-nav li a:hover {
+	color: #F7E3D3;
+}
+
+.beaver-extender-options-nav-active a {
+	background: #0071AC !important;
+	color: #FFFFFF !important;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.admin-color-light .beaver-extender-options-nav-active a,
+.admin-color-light .beaver-extender-custom-fonts-button.button {
+	background: #888888 !important;
+}
+
+.admin-color-blue .beaver-extender-options-nav-active a,
+.admin-color-blue .beaver-extender-custom-fonts-button.button {
+	background: #006386 !important;
+}
+
+.admin-color-coffee .beaver-extender-options-nav-active a,
+.admin-color-coffee .beaver-extender-custom-fonts-button.button {
+	background: #C8A587 !important;
+}
+
+.admin-color-ectoplasm .beaver-extender-options-nav-active a,
+.admin-color-ectoplasm .beaver-extender-custom-fonts-button.button {
+	background: #A1B93B !important;
+}
+
+.admin-color-midnight .beaver-extender-options-nav-active a,
+.admin-color-midnight .beaver-extender-custom-fonts-button.button {
+	background: #E54B3D !important;
+}
+
+.admin-color-ocean .beaver-extender-options-nav-active a,
+.admin-color-ocean .beaver-extender-custom-fonts-button.button {
+	background: #9CBB9F !important;
+}
+
+.admin-color-sunrise .beaver-extender-options-nav-active a,
+.admin-color-sunrise .beaver-extender-custom-fonts-button.button {
+	background: #E08231 !important;
+}
+
+#beaver-extender-admin-wrap {
+	max-width: 1180px;
+	margin: 10px 0 0;
+	padding: 0;
+	clear: both;
+}
+
+#beaver-extender-admin-wrap p {
+	font-size: 11px;
+	color: #666666;
+}
+
+#beaver-extender-admin-wrap textarea {
+	font-size: 13px;
+}
+
+.beaver-extender-wrap-structure-settings .beaver-extender-structure-settings-hide,
+.beaver-extender-wrap-design-standard .beaver-extender-design-standard-hide,
+.beaver-extender-design-control-hide {
+	display: none;
+}
+
+.beaver-extender-wrap-structure-settings .beaver-extender-structure-settings-show,
+.beaver-extender-wrap-design-standard .beaver-extender-design-standard-show,
+.beaver-extender-design-control-show {
+	display: block;
+}
+
+.beaver-extender-settings-wrap,
+.beaver-extender-custom-options-wrap {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+
+.beaver-extender-import-export-checkboxes-wrap {
+	width: 49%;
+	float: left;
+}
+
+.beaver-extender-import-export-action-fields {
+	width: 49%;
+	float: right;	
+}
+
+#css-builder-click-to-view {
+	border: 1px solid #DDDDDD;
+	border-top: 0;
+	margin: 0 3px;
+	padding: 5px 0 15px;
+	text-align: center;
+	-moz-border-radius: 0px 0px 3px 3px;
+	-webkit-border-radius: 0px 0px 3px 3px;
+	border-radius: 0px 0px 3px 3px;
+}
+
+.ace_editor {
+	border: 1px solid #DFDFDF;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+	box-shadow: 0 1px 2px rgba(0,0,0,.05);
+}
+
+.beaver-extender-tabby-textarea .ace_search {
+	background: #eee;
+}
+
+.beaver-extender-tabby-textarea .ace_search_form input,
+.beaver-extender-tabby-textarea .ace_replace_form input {
+	border: 0;
+}
+
+.ace_tooltip {
+	color: #333;
+	font-size: 13px;
+}
+
+.ace_tooltip hr {
+    border: 0;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #fafafa;
+	margin: 0;
+}
+
+button.code-builder-output-cut {
+	background: #eee;
+	border: 1px solid #ddd;
+	border-top: 0;
+	padding: 5px;
+	margin: -45px 13px 0 0;
+	width: 458px;
+	color: #444;
+	font-size: 14px;
+	float: right;
+	-webkit-border-radius: 0 0 4px 4px;
+	border-radius: 0 0 4px 4px;
+	cursor: pointer;
+}
+
+button#php-builder-output-cut-button,
+button#php-builder-output-copied-button {
+	margin: 0 11px 15px 0;
+	width: 775px;
+}
+
+.beaver-extender-tabby-textarea .ace_search_form button,
+.beaver-extender-tabby-textarea .ace_replace_form button {
+	background-color: #fff;
+	padding: 0;
+	color: #333;
+	font-size: 12px;
+	font-weight: normal;
+}
+
+.beaver-extender-tabby-textarea .ace_replace_form button {
+	padding: 0 5px;
+}
+
+.beaver-extender-tabby-textarea .ace_search_form button:hover,
+.beaver-extender-tabby-textarea .ace_replace_form button:hover {
+	background-color: #eee;
+}
+
+#beaver-extender-custom-css-builder-wrap,
+#beaver-extender-custom-php-builder-wrap {
+	background: #FFFFFF;
+	border: 1px solid #DFDFDF;
+	border-top: 1px solid #F0F0F0;
+	width: 805px;
+	float: left;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+	box-shadow: 0 1px 2px rgba(0,0,0,.05);
+}
+
+#beaver-extender-custom-css-builder-wrap-inner,
+#beaver-extender-custom-php-builder-wrap-inner {
+	width: 785px;
+	margin-bottom: 0;
+	float: left;
+}
+
+#beaver-extender-custom-css-builder-wrap-inner {
+	height: 367px;
+}
+
+#css-builder-output-wrap,
+#php-builder-output-wrap {
+	width: 460px;
+	margin-top: 10px;
+	margin-right: 0;
+	margin-left: 0;
+	float: right;
+}
+
+#php-builder-output-wrap {
+	width: 777px;
+	margin-top: 0;
+	float: left;
+}
+
+#css-builder-output,
+#php-builder-output {
+	border: 1px solid #DFDFDF;
+	width: 458px;
+	height: 268px;
+	margin: 0;
+	font-size: 13px !important;
+	line-height: normal !important;
+	font-family: monospace, sans-serif !important;
+	float: right;
+	overflow: auto;
+	-moz-border-radius: 0px 3px 3px 0px;
+	-webkit-border-radius: 0px 3px 3px 0px;
+	border-radius: 0px 3px 3px 0px;
+}
+
+#php-builder-output {
+	width: 775px;
+	height: 220px;
+}
+
+.php-builder-hidden-option {
+	display: none;
+}
+
+#css-builder-css-wrap {
+	margin: 10px 0;
+	float: right;
+}
+
+#beaver-extender-custom-css,
+#beaver-extender-custom-functions,
+#beaver-extender-custom-js {
+	border: 1px solid #DFDFDF;
+	margin:5px 0 0;
+	font-size: 13px !important;
+	line-height: normal !important;
+	font-family: monospace, sans-serif !important;
+	overflow: auto;
+	-moz-border-radius: 3px 3px 3px 3px;
+	-webkit-border-radius: 3px 3px 3px 3px;
+	border-radius: 3px 3px 3px 3px;
+}
+
+.beaver-extender-settings-wrap h3,
+.beaver-extender-custom-options-wrap h3,
+h3.beaver-extender-wide-option-heading,
+.beaver-extender-uploader-inner-1col h3,
+#beaver-extender-custom-css-builder h3,
+#beaver-extender-custom-php-builder h3 {
+	font-size: 14px;
+	font-weight: bold;
+	margin: 0 0 15px;
+	padding: 8px 0;
+	text-align: center;
+	clear: both;
+}
+
+.beaver-extender-custom-options-wrap .searchable-box h3 {
+	padding: 4px 0;
+}
+
+.beaver-extender-settings-wrap h3,
+.beaver-extender-custom-options-wrap h3,
+.beaver-extender-uploader-inner-1col h3,
+#beaver-extender-custom-css-builder h3,
+#beaver-extender-custom-php-builder h3 {
+	margin: 0;
+}
+
+.beaver-extender-optionbox-outer-1col {
+	border: 0 solid #DDDDDD;
+	margin: 0;
+	padding: 0;
+}
+
+.beaver-extender-optionbox-inner-1col {
+	background: #FFFFFF;
+	border: 1px solid #DFDFDF;
+	margin: 0 0 15px;
+	padding: 0;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+	box-shadow: 0 1px 2px rgba(0,0,0,.05);
+}
+
+.beaver-extender_page_beaver-extender-custom .beaver-extender-optionbox-inner-1col {
+	background: none;
+	border: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.beaver-extender-optionbox-2col-left-wrap {
+	width: 49%;
+	float: left;
+}
+
+.beaver-extender-optionbox-2col-right-wrap {
+	width: 49%;
+	float: right;
+}
+
+.beaver-extender-optionbox-2col-left-wrap,
+.beaver-extender-optionbox-2col-right-wrap {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.beaver-extender-optionbox-outer-2col {
+	background: #FFFFFF;
+	border: 1px solid #DFDFDF;
+	margin: 0 0 15px;
+	padding: 0;
+	float: left;
+}
+
+.beaver-extender-optionbox-inner-2col {
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+h3.beaver-extender-wide-option-heading  {
+	border-bottom: 1px solid #F0F0F0;
+	color: #222222;
+}
+
+.beaver-extender-optionbox-inner-2col h4 {
+	background: #FFFFFF;
+	border-bottom: 1px solid #F0F0F0;
+	color: #222222;
+	font-size: 14px;
+	margin: 0 0 10px;
+	padding: 8px 0;
+	text-align: center;
+}
+
+.beaver-extender-optionbox-outer-3col {
+	border: 1px solid #D8D8D8;
+	width: 236px;
+	margin: 0 0 15px 0;
+	padding: 10px;
+	float: left;
+}
+
+.beaver-extender-export-option {
+	height: 300px;
+}
+
+.beaver-extender-custom-template-option p,
+.beaver-extender-custom-label-option p,
+.beaver-extender-custom-template-option p,
+.beaver-extender-custom-conditional-option p,
+.beaver-extender-custom-widget-option p,
+.beaver-extender-custom-hook-option p {
+	margin: 0;
+	padding: 5px 10px;
+}
+
+.beaver-extender-custom-template-option,
+.beaver-extender-custom-label-option,
+.beaver-extender-custom-conditional-option,
+.beaver-extender-custom-widget-option,
+.beaver-extender-custom-hook-option {
+	float: right;
+	margin: 15px 0 0;
+	padding: 0;
+}
+
+.beaver-extender-custom-widget-option {
+	padding: 5px 0 7px;
+}
+
+.beaver-extender-custom-template-option,
+.beaver-extender-custom-hook-option {
+	padding: 5px 0 0;
+}
+
+#beaver-extender-admin-wrap,
+.beaver-extender-admin-nav,
+.beaver-extender-theme-settings-wrap,
+.beaver-extender-design-options-wrap,
+.beaver-extender-custom-options-wrap,
+.beaver-extender-settings-wrap h3,
+.beaver-extender-custom-options-wrap h3,
+.beaver-extender-optionbox-outer-1col,
+.beaver-extender-optionbox-inner-1col,
+.beaver-extender-optionbox-outer-2col,
+.beaver-extender-optionbox-inner-2col,
+.beaver-extender-custom-template-option,
+.beaver-extender-custom-label-option,
+.beaver-extender-custom-conditional-option,
+.beaver-extender-custom-widget-option,
+.beaver-extender-custom-hook-option,
+#beaver-extender-custom-css,
+#beaver-extender-custom-functions,
+#beaver-extender-custom-js,
+.beaver-extender-tabby-textarea,
+#beaver-extender-admin-footer,
+.notice-box {
+	width: 100%;
+	float: left;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.beaver-extender-custom-template-option .delete-template,
+.beaver-extender-custom-conditional-option .delete-conditional,
+.beaver-extender-custom-widget-option .delete-widget,
+.beaver-extender-custom-hook-option .delete-hook {
+	margin: 0 !important;
+}
+
+.beaver-extender-custom-label-option .delete-label {
+	margin: 1px 0 0 !important;
+}
+
+.beaver-extender-custom-templates .add-template,
+.beaver-extender-custom-conditionals .add-conditional,
+.beaver-extender-custom-widgets .add-widget,
+.beaver-extender-custom-hooks .add-hook {
+	margin: 0 10px 10px 0 !important;
+}
+
+.wp-core-ui .button {
+	height: 25px;
+	margin: 0;
+	padding: 0 10px 1px;
+	font-size: 13px;
+	vertical-align: middle;
+	line-height: 23px;
+}
+
+.beaver-extender-custom-template-option input,
+.beaver-extender-custom-template-option select,
+.beaver-extender-custom-label-option input,
+.beaver-extender-custom-label-option select,
+.beaver-extender-custom-conditional-option input,
+.beaver-extender-custom-conditional-option select,
+.beaver-extender-custom-widget-option input,
+.beaver-extender-custom-widget-option select,
+.beaver-extender-custom-hook-option input,
+.beaver-extender-custom-hook-option select,
+.ui-multiselect,
+.do-shortcode.button {
+	margin: 0 5px 0 0;
+	float: left !important;
+}
+
+.label-create-conditional {
+	padding-top: 5px;
+	float: left;
+}
+
+.label-create-conditional input {
+	float: none !important;
+}
+
+.beaver-extender-custom-template-option textarea,
+.beaver-extender-custom-hook-option textarea {
+	margin: 10px 0;
+}
+
+input[type=text] {
+	padding: 3px 5px;
+}
+
+#wpbody select {
+	height: 25px;
+	font-size: 12px;
+}
+
+#wpbody .beaver-extender-add-button {
+	margin: -5px 0 -5px -75px !important;
+	font-weight: normal;
+	float: right;
+}
+
+.do-shortcode.button {
+	margin: 0 10px 0 0 !important;
+}
+
+.view-only-template, .view-all-templates,
+.view-only-hook, .view-all-hooks {
+	width: 182px;
+	margin: 0;
+	line-height: 25px;
+	float: right;
+}
+
+.view-all-templates, .view-all-hooks {
+	width: 152px;
+	display: none;
+}
+
+.view-only-template a,
+.view-only-template a:visited,
+.view-all-templates a,
+.view-all-templates a:visited,
+.view-only-hook a,
+.view-only-hook a:visited,
+.view-all-hooks a,
+.view-all-hooks a:visited {
+	color: #464646;
+}
+
+.view-only-template a:hover,
+.view-only-template a:active,
+.view-all-templates a:hover,
+.view-all-templates a:active,
+.view-only-hook a:hover,
+.view-only-hook a:active,
+.view-all-hooks a:hover,
+.view-all-hooks a:active {
+	color: #111111;
+}
+
+.custom-css-builder-button {
+	width: 150px;
+}
+
+.css-builder-elements-select {
+	width: 265px;
+	margin-bottom: 5px;
+}
+
+.custom-css-builder-button-bgs {
+	width: 300px;
+	margin-bottom: 10px;
+}
+
+.custom-css-builder-button-elements {
+	width: 25px;
+}
+
+.color-box {
+	width: 60px;
+	margin-left: 5px;
+}
+
+.color-box-150 {
+	width: 150px;
+}
+
+.color-box-230 {
+	width: 230px;
+}
+
+.css-builder-font-options-width-control {
+	width: 150px;
+}
+
+.code-box textarea {
+	width: 274px;
+	height: 95px;
+	margin: 5px 0 5px -4px;
+	padding: 3px 7px 3px 7px;
+	background: #333 !important;
+	color: #fff;
+}
+
+.code, code {
+	font-family: Arial, sans-serif;
+	color: #444;
+	padding: 2px;
+}
+
+code.beaver-extender-px-unit {
+	margin: 0;
+	padding: 3px 4px 5px;
+}
+
+.page-cat-id-scrollbox {
+	width: 100%;
+	height: 200px;
+	border: 1px solid #DFDFDF;
+	padding: 10px !important;
+	overflow: scroll;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#readme-box {
+	background: #FFFFFF;
+	border: none;
+	margin: 0 10px 10px;
+	padding: 0 10px;
+}
+
+#readme-box h5 {
+	color: #014662;
+	font-family: Georgia,serif;
+	font-size: 14px;
+	margin-top: 15px;
+}
+
+#readme-box .tooltip h5 {
+	color: #555555;
+	font-size: 13px;
+	margin-top: 0;
+}
+
+#readme-box p {
+	color: #333333;
+	font-family: Georgia, serif;
+	font-size: 13px;
+	text-align: justify;
+}
+
+#readme-box .tooltip p {
+	color: #666666;
+	font-size:11px;
+	text-align: normal;
+}
+
+#resource-box {
+	background: #FFFFFF;
+	border: none;
+	margin: 0 10px 10px;
+	padding: 0 10px;
+}
+
+#resource-box h5 {
+	color:#014662;
+	font-family:Georgia,serif;
+	font-size:14px;
+	margin-top:15px;
+}
+
+#resource-box p {
+	color: #333333;
+	font-family:Georgia, serif;
+	font-size:13px;
+	text-align: justify;
+}
+
+.bg-box {
+	background: #FFFFFF;
+	border: none;
+	margin: 0 10px 10px;
+	padding: 0 5px;
+}
+
+.bg-box-design {
+	margin: 0 0 10px 0;
+	padding: 5px 0;
+	overflow: hidden;
+}
+
+.custom-css-builder-options-box-wrap {
+	width: 295px;
+	padding-top: 10px;
+	float: left;
+}
+
+.custom-css-builder-options-box {
+	background: #F6F6F6;
+	border: 1px solid #E8E8E8;
+	margin-bottom: 10px;
+	padding: 10px;
+	font-size: 12px;
+	overflow: hidden;
+}
+
+.beaver-extender-css-builder-button-wrap,
+.beaver-extender-php-builder-button-wrap {
+	margin-top: 7px;
+	padding: 5px 0;
+	float: left;
+}
+
+.beaver-extender-custom-fonts-button.button {
+	background: #0071AC !important;
+	border: none !important;
+	height: 36px !important;
+	color: #FFFFFF !important;
+	padding: 7px 10px !important;
+	margin: 0 !important;
+	text-shadow: none !important;
+	-webkit-border-radius: 0 !important;
+	border-radius: 0 !important;
+	-webkit-box-shadow: 0 0 0 #FFFFFF !important;
+	box-shadow: 0 0 0 #FFFFFF !important;
+}
+
+.beaver-extender-custom-fonts-button.button.rounded-button {
+	-webkit-border-radius: 3px !important;
+	border-radius: 3px !important;
+}
+
+.beaver-extender-custom-fonts-box {
+	background: #F4F4F4;
+	border: 1px solid #D8D8D8;
+	width: 512px;
+	margin: -3px 0 0;
+	padding: 10px;
+	float: right;
+	font-weight: normal;
+	position: absolute;
+}
+
+.show-hide-custom-css {
+	margin: 0;
+	float: right;
+}
+
+.beaver-extender-all-options,
+.beaver-extender-all-css-builder {
+	display: none;
+}
+
+.beaver-extender-options-display {
+	display: block;
+}
+
+.beaver-extender-optionset {
+	margin: 0;
+	padding: 0 10px;
+}
+
+#beaver-extender-floating-save {
+	width: 300px;
+	margin-top:	-45px;
+	position: fixed;
+	left: 707px;
+	outline: 0;
+	z-index: 100;
+}
+
+.beaver-extender-save-button.button {
+	height: 30px !important;
+	color: #fff !important;
+	float: left !important;
+}
+
+.beaver-extender-save  {
+	font-size: 14px;
+	cursor: pointer;
+	float: right;
+	margin: 0 10px 0 0;
+	padding: 5px;
+}
+
+.beaver-extender-reset  {
+	font-size: 10px;
+	cursor: pointer;
+}
+
+.beaver-extender-skin-custom-code-button-container {
+	width: 100%;
+	float: left;
+	position: relative;
+}
+
+.beaver-extender-ajax-save-spinner {
+	width: 20px;
+	height: 20px;
+	margin: 0;
+	position: absolute;
+	top: 5px;
+	left: 110px;
+	float: left;
+	display: none;
+}
+
+.beaver-extender-saved {
+	background: #2EA2CC;
+	margin: 0;
+	padding: 3px;
+	position: absolute;
+	top: 3px;
+	left: 110px;
+	color: #fff;
+	font-size: 11px;
+	font-weight: bold;
+	float: left;
+	display: none;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+}
+
+/* Tooltip Styles */
+
+.tooltip {
+	background: #FFFFFF;
+	border: 1px solid #E2E2E2;
+	font-size: 12px;
+	padding: 15px;
+	color: #fff !important;
+	z-index:51;
+	display: none;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	-moz-box-shadow: 0 5px 5px #ccc;
+	-webkit-box-shadow: 0 5px 5px #ccc;
+	box-shadow: 0 5px 5px #ccc;
+}
+
+.tooltip-300 {
+	width: 300px;
+}
+
+.tooltip-scroll-300 {
+	height: 450px;
+	overflow: scroll;
+}
+
+.tooltip-400 {
+	width: 400px;
+}
+
+.tooltip-scroll-400 {
+	height: 450px;
+	overflow: scroll;
+}
+
+.tooltip-500 {
+	width: 500px;
+}
+
+.tooltip-scroll-500 {
+	height: 450px;
+	overflow: scroll;
+}
+
+.tooltip-600 {
+	width: 600px;
+}
+
+.tooltip-scroll-600 {
+	height: 450px;
+	overflow: scroll;
+}
+
+.tooltip p {
+	padding-left: 0;
+	color: #555555;
+}
+
+.tooltip li {
+	margin-left: 20px;
+	padding: 0 10px 10px 0;
+	color: #555555;
+	list-style: square;
+}
+
+.tooltip h5 {
+	margin: 0 0 -5px;
+	color: #555555;
+	font-size: 13px;
+	clear: both;
+}
+
+.tooltip-quote {
+	background: #F1F1F1;
+	border: 1px solid #E8E8E8;
+	margin: 10px 0 15px;
+	padding: 0 10px 10px;
+	float: left;
+	font-style: italic;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	-moz-box-shadow: 0 5px 5px #ccc;
+	-webkit-box-shadow: 0 5px 5px #ccc;
+	box-shadow: 0 5px 5px #ccc;
+}
+
+.tooltip-credit {
+	background: #F1F1F1;
+	border: 1px solid #E8E8E8;
+	margin: 0;
+	padding: 5px 10px;
+	color: #555555;
+	float: left;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.tooltip {
+	color: #3A639A !important;
+}
+
+.tooltip a,
+.tooltip a:link,
+.tooltip a:visited {
+	color: #3A639A !important;
+}
+
+.tooltip a:hover,
+.tooltip a:active {
+	color: #5482C8 !important;
+}
+
+.tooltip-mark {
+	color:#21759B;
+	font-size:11px;
+	font-weight:bold;
+	cursor:pointer;
+}
+
+/* Notice Box Styles */
+.notice-box {
+	background: #FFFBCC;
+	border: 1px solid #E6DB55;
+	color: #555555;
+	text-align: center;
+	margin: 10px 0px -5px;
+	padding: 5px 8px;
+}
+
+/* Update Notice Styles */
+.beaver-extender-update-box {
+	background: #004261;
+	font-size: 18px !important;
+	padding: 13px 28px;
+	color: #fff !important;
+	display: none;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	-moz-box-shadow: -1px 3px 5px #aaa;
+	-webkit-box-shadow: 0 5px 5px #ccc;
+	box-shadow: 0 5px 5px #ccc;
+	z-index: 100;
+}
+
+#update-nag, .update-nag {
+	margin-bottom:15px;
+}
+
+.resizable-textarea textarea {
+	display:block;
+	margin-bottom:0pt;
+	width:95%;
+	height: 20%;
+}
+
+.default-text-active {
+	color: #AAAAAA !important;
+	font-style: italic;
+	font-weight: normal;
+}
+
+.disabled-form-element {
+	opacity: 0.2;
+}
+
+.button {
+	font-size: 13px !important;
+	margin: 0 5px 0 0!important;
+	color: #666 !important;
+	text-align: center !important;
+	float: right !important;
+}
+
+.button-highlighted,
+.custom-css-builder-buttons {
+	cursor: pointer;
+}
+
+body.beaver-extender_page_beaver-extender-custom .beaver-extender-css-builder-button-wrap .button,
+body.beaver-extender_page_beaver-extender-custom .beaver-extender-php-builder-button-wrap .button {
+	width: 98px;
+}
+
+body.beaver-extender_page_beaver-extender-custom .select-all-images.button {
+	width: 120px;
+}
+
+body.beaver-extender_page_beaver-extender-custom #custom-css-builder-nav-open-close-elements-box .button {
+	width: 29px;
+}
+
+body.beaver-extender_page_beaver-extender-custom #custom-css-builder-nav-borders-box .button,
+body.beaver-extender_page_beaver-extender-custom #custom-css-builder-nav-border-radius-box .button,
+body.beaver-extender_page_beaver-extender-custom #custom-css-builder-nav-margins-box .button,
+body.beaver-extender_page_beaver-extender-custom #custom-css-builder-nav-padding-box .button,
+body.beaver-extender_page_beaver-extender-custom #custom-css-builder-nav-responsive-box .button {
+	width: 100%;
+	margin: 10px 0 0 !important;
+}
+
+body.beaver-extender_page_beaver-extender-custom #custom-css-builder-nav-fonts-box .button,
+body.beaver-extender_page_beaver-extender-custom #custom-css-builder-nav-width-float-box .button {
+	width: 145px;
+	float: left !important;
+}
+
+.ui-multiselect input.ui-state-default {
+	width: 250px !important;
+	padding: 4px 0 4px 6px;
+}
+
+@media only screen and (max-width: 1023px) {
+	#beaver-extender-floating-save {
+		left: 600px;
+	}
+	.beaver-extender-css-builder-button-wrap,
+	.beaver-extender-php-builder-button-wrap {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 782px) {
+	#beaver-extender-floating-save {
+		left:	0;
+		margin: 0;
+		position: relative;
+		float: left;
+	}
+	#beaver-extender-theme-settings-nav li a,
+	#beaver-extender-theme-settings-nav li a:link,
+	#beaver-extender-theme-settings-nav li a:visited {
+		padding: 2px 54px;
+	}
+	#beaver-extender-custom-options-nav li a:link,
+	#beaver-extender-custom-options-nav li a:visited {
+		padding: 2px 12px;
+	}
+	.beaver-extender-optionbox-2col-left-wrap,
+	.beaver-extender-optionbox-2col-right-wrap,
+	.beaver-extender-import-export-checkboxes-wrap,
+	.beaver-extender-import-export-action-fields,
+	.beaver-extender-custom-template-option input[type="text"],
+	.beaver-extender-custom-template-option select,
+	.beaver-extender-custom-label-option input[type="text"],
+	.beaver-extender-custom-conditional-option input[type="text"],
+	.beaver-extender-custom-conditional-option select,
+	.beaver-extender-custom-widget-option input[type="text"],
+	.beaver-extender-custom-widget-option select,
+	.beaver-extender-custom-hook-option input[type="text"],
+	.beaver-extender-custom-hook-option select,
+	.ui-multiselect,
+	.custom-option-title-text {
+		width: 100% !important;
+		margin: 5px 0;
+		display: block;
+	}
+	.wp-admin .beaver-extender-custom-widget-option p label,
+	.wp-admin .beaver-extender-custom-hook-option p label {
+		overflow: hidden;
+	}
+	.custom-search {
+		margin-bottom: 5px;
+	}
+	.beaver-extender-custom-fonts-box {
+		width: 80%;
+	}
+	.ui-multiselect input.ui-state-default {
+		width: 94% !important;
+		margin: 0 !important;
+	}
+	.ui-multiselect-checkboxes li {
+		font-size: 18px !important;
+	}
+}

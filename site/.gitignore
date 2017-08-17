@@ -1,0 +1,44 @@
+# Application
+web/app/plugins/*
+!web/app/plugins/admin-page-spider-pp
+!web/app/plugins/advanced-custom-fields-pro
+!web/app/plugins/bb-plugin
+!web/app/plugins/bb-theme-builder
+!web/app/plugins/beaver-extender
+!web/app/plugins/child-themer
+!web/app/plugins/tinymce-advanced
+
+
+
+
+
+
+web/app/mu-plugins/*/
+web/app/upgrade
+web/app/uploads/*
+!web/app/uploads/.gitkeep
+
+
+web/app/themes/*
+!web/app/themes/bb-theme
+!web/app/themes/bb-theme-child
+!web/app/themes/genesis
+!web/app/themes/genesis-sample
+!web/app/themes/starter-theme
+!web/app/themes/altitude-pro
+!web/app/themes/the-411-pro
+
+
+
+# WordPress
+web/wp
+web/.htaccess
+
+# Dotenv
+.env
+.env.*
+!.env.example
+
+# Composer
+vendor/*
+!vendor/.gitkeep
