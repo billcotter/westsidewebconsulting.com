@@ -46,6 +46,7 @@
     "wpackagist-plugin/ewww-image-optimizer": "dev-trunk",
     "wpackagist-plugin/genesis-simple-share": "dev-trunk",
     "wpackagist-plugin/genesis-visual-hook-guide": "dev-trunk",
+    "wpackagist-plugin/jetpack": "dev-trunk",
     "wpackagist-plugin/lj-maintenance-mode": "dev-trunk",
     "wpackagist-plugin/regenerate-thumbnails": "dev-trunk",
     "wpackagist-plugin/scissors-continued": "dev-trunk",

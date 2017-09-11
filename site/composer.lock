@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "c34fd5c260b24d20d2953f50cc5abec7",
-    "content-hash": "20949b3623ddf8b19d80d5723df06dfb",
+    "hash": "6ad00997165513a849bccc4149c687ce",
+    "content-hash": "d0eb0a81452537f45b1d12958a798aaf",
     "packages": [
         {
             "name": "composer/installers",
@@ -557,6 +557,27 @@
             "time": "2017-04-09 01:25:16"
         },
         {
+            "name": "wpackagist-plugin/jetpack",
+            "version": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/jetpack/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/jetpack.zip?timestamp=1504623707",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/jetpack/",
+            "time": "2017-09-05 16:01:47"
+        },
+        {
             "name": "wpackagist-plugin/lj-maintenance-mode",
             "version": "dev-trunk",
             "source": {
@@ -983,6 +1004,7 @@
         "wpackagist-plugin/ewww-image-optimizer": 20,
         "wpackagist-plugin/genesis-simple-share": 20,
         "wpackagist-plugin/genesis-visual-hook-guide": 20,
+        "wpackagist-plugin/jetpack": 20,
         "wpackagist-plugin/lj-maintenance-mode": 20,
         "wpackagist-plugin/regenerate-thumbnails": 20,
         "wpackagist-plugin/scissors-continued": 20,
