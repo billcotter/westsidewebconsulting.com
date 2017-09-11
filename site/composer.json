@@ -42,6 +42,7 @@
     "wpackagist-plugin/akismet": "dev-trunk",
     "wpackagist-plugin/amazon-s3-and-cloudfront": "dev-trunk",
     "wpackagist-plugin/amazon-web-services": "dev-trunk",
+    "wpackagist-plugin/beaverlodge-maintenance": "dev-trunk",
     "wpackagist-plugin/contact-form-7": "dev-trunk",
     "wpackagist-plugin/ewww-image-optimizer": "dev-trunk",
     "wpackagist-plugin/genesis-simple-share": "dev-trunk",
