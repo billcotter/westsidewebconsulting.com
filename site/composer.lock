@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "b7a9bf52181cfe97da930430e93347a7",
-    "content-hash": "18dfb16b208b26daa2651c9217af5408",
+    "hash": "c34fd5c260b24d20d2953f50cc5abec7",
+    "content-hash": "20949b3623ddf8b19d80d5723df06dfb",
     "packages": [
         {
             "name": "composer/installers",
@@ -557,6 +557,27 @@
             "time": "2017-04-09 01:25:16"
         },
         {
+            "name": "wpackagist-plugin/lj-maintenance-mode",
+            "version": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/lj-maintenance-mode/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/lj-maintenance-mode.zip?timestamp=1502373585",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/lj-maintenance-mode/",
+            "time": "2017-08-10 14:59:45"
+        },
+        {
             "name": "wpackagist-plugin/nginx-helper",
             "version": "dev-trunk",
             "source": {
@@ -962,6 +983,7 @@
         "wpackagist-plugin/ewww-image-optimizer": 20,
         "wpackagist-plugin/genesis-simple-share": 20,
         "wpackagist-plugin/genesis-visual-hook-guide": 20,
+        "wpackagist-plugin/lj-maintenance-mode": 20,
         "wpackagist-plugin/regenerate-thumbnails": 20,
         "wpackagist-plugin/scissors-continued": 20,
         "wpackagist-plugin/simple-social-icons": 20,

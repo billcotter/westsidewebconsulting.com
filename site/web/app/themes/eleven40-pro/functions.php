@@ -51,6 +51,9 @@ add_theme_support( 'genesis-structural-wraps', array(
 	'footer'
 ) );
 
+//* Remove the site description
+remove_action( 'genesis_site_description', 'genesis_seo_site_description' );
+
 //* Add support for additional color styles
 add_theme_support( 'genesis-style-selector', array(
 	'eleven40-pro-blue'  => __( 'eleven40 Pro Blue', 'eleven40' ),
@@ -59,8 +62,8 @@ add_theme_support( 'genesis-style-selector', array(
 ) );
 
 //* Reposition the site description
-remove_action( 'genesis_site_description', 'genesis_seo_site_description' );
-add_action( 'genesis_before_content_sidebar_wrap', 'genesis_seo_site_description' );
+# remove_action( 'genesis_site_description', 'genesis_seo_site_description' );
+# add_action( 'genesis_before_content_sidebar_wrap', 'genesis_seo_site_description' );
 
 //* Unregister the header right widget area
 unregister_sidebar( 'header-right' );

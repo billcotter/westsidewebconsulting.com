@@ -6,6 +6,7 @@ web/app/plugins/*
 !web/app/plugins/bb-theme-builder
 !web/app/plugins/beaver-extender
 !web/app/plugins/child-themer
+!web/app/plugins/css-hero
 !web/app/plugins/tinymce-advanced
 
 
@@ -24,6 +25,7 @@ web/app/themes/*
 !web/app/themes/bb-theme-child
 !web/app/themes/genesis
 !web/app/themes/genesis-sample
+!web/app/themes/eleven40-pro
 !web/app/themes/starter-theme
 !web/app/themes/altitude-pro
 !web/app/themes/the-411-pro
