@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "6ad00997165513a849bccc4149c687ce",
-    "content-hash": "d0eb0a81452537f45b1d12958a798aaf",
+    "hash": "0b0f558259ae9621fe5208c3bbf2d0bc",
+    "content-hash": "3a76f40a07939d8bfbe6c5c4e9d4500d",
     "packages": [
         {
             "name": "composer/installers",
@@ -450,6 +450,27 @@
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/amazon-web-services/",
             "time": "2017-03-13 13:15:21"
+        },
+        {
+            "name": "wpackagist-plugin/beaverlodge-maintenance",
+            "version": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/beaverlodge-maintenance/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/beaverlodge-maintenance.zip?timestamp=1465278292",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/beaverlodge-maintenance/",
+            "time": "2016-06-07 06:44:52"
         },
         {
             "name": "wpackagist-plugin/contact-form-7",
@@ -1000,6 +1021,7 @@
         "wpackagist-plugin/akismet": 20,
         "wpackagist-plugin/amazon-s3-and-cloudfront": 20,
         "wpackagist-plugin/amazon-web-services": 20,
+        "wpackagist-plugin/beaverlodge-maintenance": 20,
         "wpackagist-plugin/contact-form-7": 20,
         "wpackagist-plugin/ewww-image-optimizer": 20,
         "wpackagist-plugin/genesis-simple-share": 20,
