@@ -9,6 +9,7 @@ web/app/plugins/*
 !web/app/plugins/css-hero
 !web/app/plugins/tinymce-advanced
 !web/app/plugins/beaverlodge-maintenance
+!web/app/plugins/wordpress-importer
 
 
 

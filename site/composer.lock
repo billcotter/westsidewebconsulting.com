@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "0b0f558259ae9621fe5208c3bbf2d0bc",
-    "content-hash": "3a76f40a07939d8bfbe6c5c4e9d4500d",
+    "hash": "93a90edbf99521036134869da35050bd",
+    "content-hash": "7f7d6400fe1b12039ef822b311fcfc19",
     "packages": [
         {
             "name": "composer/installers",
@@ -851,6 +851,27 @@
             "time": "2015-09-29 02:23:58"
         },
         {
+            "name": "wpackagist-plugin/wordpress-importer",
+            "version": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wordpress-importer/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-importer.zip?timestamp=1481227482",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wordpress-importer/",
+            "time": "2016-12-08 20:04:42"
+        },
+        {
             "name": "wpackagist-plugin/wp-migrate-db",
             "version": "dev-trunk",
             "source": {
@@ -1042,6 +1063,7 @@
         "wpackagist-plugin/testimonials-widget": 20,
         "wpackagist-plugin/strong-testimonials": 20,
         "wpackagist-plugin/wordfence": 20,
+        "wpackagist-plugin/wordpress-importer": 20,
         "wpackagist-plugin/youtube-channel-gallery": 20,
         "wpackagist-plugin/genesis-dambuster": 20
     },
